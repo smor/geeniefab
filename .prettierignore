@@ -1,0 +1,9 @@
+# Ignore all min.css files:
+*.min.css
+# Ignore all public css files: (which are minified)
+public/css/**/*.css
+# Ignore specific files
+public/js/bundle.js
+package.json
+package-lock.json
+*.ejs

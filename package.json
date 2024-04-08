@@ -1,0 +1,27 @@
+{
+    "name": "geniefab",
+    "version": "1.0.0",
+    "description": "A TypeScript project setup for GenieFab",
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack serve --mode development --open",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.0",
+        "@babel/preset-env": "^7.24.0",
+        "@types/jest": "^29.5.12",
+        "@webpack-cli/serve": "^2.0.5",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0",
+        "lit": "^3.1.2",
+        "makerjs": "^0.18.1",
+        "ts-jest": "^29.1.2",
+        "ts-loader": "^9.5.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.2",
+        "webpack": "^5.90.3",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.2"
+    }
+}
